@@ -21,7 +21,7 @@ CORS(app, origins=[
 ])
 
 # UPDATE THIS URL to your bot server webhook
-WEBHOOK_URL = os.getenv("WEBHOOK_URL", "socialmediaboostorder.railway.internal/verify_callback")
+WEBHOOK_URL = os.getenv("WEBHOOK_URL", "socialmediaboostorder-production.up.railway.app/verify_callback")
 
 @app.route('/api/config')
 def get_config():
