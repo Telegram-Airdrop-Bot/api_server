@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app, origins=[
     "https://meek-ganache-28c472.netlify.app",  # Your frontend domain
-    "https://verifynftc.netlify.app/",  # New frontend domain
+    "https://verifynftc.netlify.app",  # New frontend domain
     "https://*.netlify.app",
     "https://*.vercel.app",
     "https://*.railway.app",
